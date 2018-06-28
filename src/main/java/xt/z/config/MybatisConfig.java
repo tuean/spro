@@ -26,7 +26,7 @@ import java.util.Properties;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan(basePackages = "me.rajax.datasync.dao")
+@MapperScan(basePackages = "xt.z.dao")
 public class MybatisConfig implements TransactionManagementConfigurer {
 
     @Value("${mybatis.typeAliasesPackage}")
